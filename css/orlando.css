@@ -126,7 +126,7 @@ header #logotipo {
 }
 
 #menu {
-    margin: 26px 0;
+    margin: 35px 0;
     position: absolute;
     right: 0;
 }
@@ -137,8 +137,28 @@ header #logotipo {
     font-family: "OpenSans";
 }
 
+#menu li.search input {
+    background-color: #5E299A;
+    color: #FFF;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid #7b51aa;
+    border-radius: 4px;
+
+}
+
+::placeholder{
+    color: #FFF;   
+    opacity: 1; 
+}
+
 #menu li a {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px 25px;
+    font-weight: bold;
+}
+
+#menu li.search button {
+    padding: 2px 8px;
 }
